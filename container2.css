@@ -1,0 +1,114 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---ABOUT CONTENT STYLING--- */
+
+.about {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about h3 {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
+
+.about p {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+/* ---ABOUT CONTENT STYLING ENDS HERE--- */
+
+/* ---ICONS STYLING--- */
+
+.contact-icons {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-icons a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact-icons a:hover {
+    color: rgb(44, 167, 249);
+}
+
+/* ---ICONS STYLING ENDS HERE--- */
+
+/* ---EXPERIENCE CONTENT STYLING--- */
+
+.experience {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experience h3 {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
+
+.experience p {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+/* ---EXPERIENCE CONTENT STYLING ENDS HERE--- */
+
+/* ---SKILL CONTENT STYLING--- */
+
+.skills {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: white;
+    font-size: 40px;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+.skills h3 {
+    color: white;
+    font-size: 40px;
+    align-self: center;
+}
+
+/* ---SKILL CONTENT STYLING ENDS HERE--- */
