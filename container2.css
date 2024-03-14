@@ -1,0 +1,174 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---ABOUT CONTENT STYLING--- */
+
+.about {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about span {
+    background-color: white;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+.about span p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* ---ABOUT CONTENT STYLING ENDS HERE--- */
+
+/* ---EXPERIENCE CONTENT STYLING--- */
+
+.experience {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.experience span {
+    background-color: white;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+.experience span h4 {
+    color: rgb(44, 167, 249);
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.experience span h5 {
+    color: rgb(44, 167, 249);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.experience span p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* ---EXPERIENCE CONTENT STYLING ENDS HERE--- */
+
+/* ---SKILL CONTENT STYLING--- */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.skills h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.skill-icons span {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: white;
+    font-size: 40px;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+/* ---SKILL CONTENT STYLING ENDS HERE--- */
+
+/* ---INTEREST CONTENT STYLING--- */
+
+.interest {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interest h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.interest span {
+    background-color: white;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgb(48, 48, 48);
+}
+
+.interest span h4 {
+    color: rgb(44, 167, 249);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.interest span p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* ---INTEREST CONTENT STYLING ENDS HERE--- */
+
+/* ---ICONS STYLING--- */
+
+.contact-icons {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-icons a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact-icons a:hover {
+    color: rgb(44, 167, 249);
+}
+
+/* ---ICONS STYLING ENDS HERE--- */
