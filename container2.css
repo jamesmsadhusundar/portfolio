@@ -1,0 +1,119 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---EXPERIENCE CONTENT STYLING--- */
+
+.experience {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.experience span {
+    background-color: black;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.experience span h4 {
+    color: rgb(44, 167, 249);
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.experience span h5 {
+    color: rgb(44, 167, 249);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.experience span p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* ---EXPERIENCE CONTENT STYLING ENDS HERE--- */
+
+/* ---SKILL CONTENT STYLING--- */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.skills h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.skill-icons span {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(34, 34, 34), rgb(50, 50, 50));
+    color: white;
+    font-size: 40px;
+    width: 700px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+/* ---SKILL CONTENT STYLING ENDS HERE--- */
+
+/* ---ICONS STYLING--- */
+
+.contact-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-icons h3 {
+    color: white;
+    font-size: 150px;
+    letter-spacing: 30px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.contact-icons span {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-icons span a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact-icons span a:hover {
+    color: rgb(44, 167, 249);
+}
+
+/* ---ICONS STYLING ENDS HERE--- */
